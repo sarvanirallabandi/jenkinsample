@@ -8,8 +8,12 @@ public class View {
 
 	@RequestMapping("/next")
 	public String view() {
+		try{}
+		catch(){}
+		finally{}
 		return "next";
 	}
+	
 	
 	@RequestMapping("/index")
 	public String views() {
